@@ -10,7 +10,7 @@ import image7 from "../../assets/image7.jpg";
 import image8 from "../../assets/image8.jpg";
 
 const Carousel = () => {
-  const imageArr = [
+  const imageArr = [ 
     image1,
     image2,
     image3,
@@ -59,9 +59,9 @@ const Carousel = () => {
       >
         ←
       </button>
-      <div className="carousel">
+      <div className="carouselDiv">
         {imageArr.slice(imageIndex, imageIndex + 1).map((image, index) => (
-          <img className="image" src={image} key={index} alt="not_found" />
+          <img className="imageIcon" src={image} key={index} alt="not_found" />
         ))}
       </div>
       <button

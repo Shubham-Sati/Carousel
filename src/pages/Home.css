@@ -1,5 +1,4 @@
-.carouselImage{
-    width: auto;
-    height: auto;
-    object-fit: contain;
+.homeDiv{
+    width: 100vw;
+    height: 100vh;
 }
